@@ -6,4 +6,5 @@ package common;
  */
 public interface Constants {
     String PREFIX = "src/main/resources/";
+    String TENCENT_IP="111.230.135.74";
 }

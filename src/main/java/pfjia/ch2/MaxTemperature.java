@@ -27,6 +27,9 @@ public class MaxTemperature {
                 args[i] = Constants.PREFIX + args[i];
             }
         }
+        args[0] = "hdfs://" + Constants.TENCENT_IP + "/user/root/input";
+        args[1] = "src/main/resources/output";
+
         Job job = Job.getInstance();
         job.setJarByClass(MaxTemperature.class);
         job.setJobName("Max temperature");

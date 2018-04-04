@@ -17,6 +17,14 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/javax.activation/javax.activation-api -->
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>javax.activation-api</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+
+
         <!-- 由于在hadoop-mapreduce-client-core使用了commons-logging,因此导入 -->
         <dependency>
             <groupId>commons-logging</groupId>
@@ -61,10 +69,12 @@
             <version>${log4j2.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.mrunit/mrunit -->
         <dependency>
             <groupId>org.apache.mrunit</groupId>
             <artifactId>mrunit</artifactId>
             <version>1.1.0</version>
+            <classifier>hadoop2</classifier>
         </dependency>
 
 

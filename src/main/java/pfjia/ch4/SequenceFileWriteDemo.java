@@ -17,7 +17,7 @@ import java.net.URI;
  * @since 2018/4/3 22:34
  */
 public class SequenceFileWriteDemo {
-    private static final String[] DATA = {
+    public static final String[] DATA = {
             "One, two, buckle my shoe",
             "Three, four, shut the door",
             "Five, six, pick up sticks",
@@ -26,7 +26,7 @@ public class SequenceFileWriteDemo {
     };
 
     public static void main(String[] args) throws IOException {
-        String uri="";
+        String uri="hdfs://localhost/numbers3.seq";
         Configuration conf=new Configuration();
         FileSystem  fs=FileSystem.get(URI.create(uri),conf);
         Path path=new Path(uri);
