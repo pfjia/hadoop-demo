@@ -14,6 +14,26 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.5.3-beta" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-engine:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-api:5.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-params:5.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-launcher:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-common:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-annotations:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
+    <orderEntry type="library" name="Maven: commons-net:commons-net:3.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-auth:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-hdfs:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.52.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-client:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp:okhttp:2.7.5" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-app:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.5.3-beta" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
     <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.2" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
@@ -78,7 +98,7 @@
     <orderEntry type="module-library">
       <library name="Maven: jdk.tools:jdk.tools:1.8">
         <CLASSES>
-          <root url="jar://D:/maven-repository/jdk/tools/jdk.tools/1.8/jdk.tools-1.8.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/jdk/tools/jdk.tools/1.8/jdk.tools-1.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
